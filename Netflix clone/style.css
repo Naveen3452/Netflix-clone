@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+
+body{
+    background-color: rgb(48, 44, 44);
+}
+
+.hero{
+    height: 90vh;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.884),rgba(0, 0, 0, 0.34),rgb(0, 0, 0)),url(img/Netflix-Hintergrund.webp);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.hero nav{
+    height: 8%;
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    
+}
+
+.hero nav h1{
+    position: relative;
+    right: 90px;
+    font-size: 40px;
+    color: red;
+}
+
+.hero nav button{
+   padding: 10px 20px;
+   border-radius: 5px;
+   border: none;
+   color: white;
+   background-color: red;
+   font-weight: bolder;
+}
+.hero nav button:hover{
+    background-color: rgb(194, 12, 12);
+    transition: .3s;
+}
+
+.hero .content{
+    position: relative;
+    top: 8%;
+    width: 70%;
+    height: 40%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero .content h1{
+    font-weight: bolder;
+    font-size: 60px;
+}
+.hero .content h3{
+    font-weight: lighter;
+    font-size: 30px;
+}
+.hero .content h4{
+    font-weight: lighter;
+    font-size: 20px;
+}
+.hero .content .search{
+    width: 50%;
+    height: 20%;
+    gap: 5px;
+    display: flex;
+     justify-content: space-around;
+    
+}
+
+.hero .content .search input{
+    width: 58%;
+    color: aliceblue;
+    font-size: large;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgba(92, 83, 83, 0.137);
+    
+}
+.hero .content .search input::placeholder{
+       font-size: 15px;
+       color: rgb(194, 194, 194);
+       padding: 2% 5%;
+}
+.hero .content .search button{
+    width: 35%;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-size: x-large;
+}
+.hero .content .search button:hover{
+    background-color: rgb(194, 12, 12);
+    transition: .3s;
+}
+
+
+   /* adssssssssss */
+
+   .ads{
+    height: 70vh;
+    background-color: black;
+    margin-top: .5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   }
+   .ads .text{
+    width: 35%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+     margin: 20px;
+    justify-content: center;
+
+   }
+  
+   .ads  .text h1{
+    font-weight: bolder;
+    font-size: 50px;
+    color: white;
+   }
+   .ads  .text h3{
+    font-weight: lighter;
+    font-size: 24px;
+    color: white;
+   }
+
+   .ads  .img{
+    width: 28%;
+    height: 80%;
+   
+    background-position: center;
+   
+    background-repeat: no-repeat;
+   }
+   .box1  .img img{
+    background-size: contain;
+    background-image: url(img/Netflix-Hintergrund.webp);
+    width: 100%;
+    height: 100%;
+   }
+.img img{
+        background-size: contain;
+        width: 100%;
+        height: 100%;
+}
+
+/* faqqqqqqqqqqqqq */
+.allbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    margin-top: .5%;
+    max-height: max-content;
+    
+}
+.allbox h1{
+    color: white;
+    font-size: 60px;
+    margin: 5%;
+}
+.faq{
+    
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    max-height: max-content;
+    gap: 10px;
+    color: aliceblue;
+   
+}
+.faq .questions{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+.faq .questions .qes{
+    font-size: 30px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    height: 20%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.142);
+    margin: .1%;
+    padding: 1%;
+    
+
+    
+}
+.faq .questions .ans{
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    line-height: 30px;
+       margin: .1%;
+    padding: 1%;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.142);
+}
+
+.hide{
+    display: none;
+}
+
+.allbox .searchall{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    height: 30%;
+    margin: 2%;
+    position: relative;
+    padding: 2%;
+
+}
+.searchall h3{
+    color: white;
+    word-spacing: 3px;
+    font-size: large;
+    position: relative;
+    text-wrap:nowrap;
+}
+.allbox .searchall .search{
+    width: 70%;
+    height: 100px;
+    background-color: rgba(0, 0, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.allbox .search input{
+    width: 60%;
+    padding: 20px;
+    color: aliceblue;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.097);
+    
+}
+.allbox .search input::placeholder{
+       font-size: 15px;
+       color: rgb(194, 194, 194);
+       padding: 2% 5%;
+}
+.allbox .search button{
+    width: 40%;
+    padding: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-size: x-large;
+}
+.allbox .search button:hover{
+    background-color: rgb(194, 12, 12);
+    transition: .3s;
+}
+
+
+/* abouttttt */
+
+
+.about
+{
+    width: 100%;
+    margin-top: .5%;
+    background-color: black;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+
+.about .links{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    /* background-color: rgba(240, 255, 255, 0.186); */
+    justify-content: space-around;
+}
+
+.about .links ul{
+    height: 100%;
+    width: 20%;
+    list-style: none;
+    color: white;
+    /* background-color: rgba(0, 255, 255, 0.221); */
+}
+.about .links ul li{
+    margin: 10%;
+}
+.about .links ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.credits{
+    width: 100%;
+    max-height: fit-content;
+    background-color: rgba(0, 0, 0, 0.739);
+}
+.credits h3{
+    color: rgba(245, 245, 245, 0.566);
+    text-align: center;
+    word-spacing: 4px;
+    letter-spacing: 4px;
+    padding: 4px;
+}
